@@ -4,36 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/basiclightbox/dist/basicLightbox.min.css">
+  <link rel="stylesheet" href="/src/css/styles.css">
   <title>Galería</title>
-  <style>
-    .gallery {
-      display: flex;
-      flex-wrap: wrap;
-      list-style: none;
-      padding: 0;
-      margin: 0;
-    }
 
-    .gallery__item {
-      flex-basis: 25%;
-      padding: 10px;
-    }
-
-    .gallery__link {
-      display: block;
-      text-decoration: none;
-    }
-
-    .gallery__image {
-      width: 100%;
-      height: auto;
-    }
-  </style>
 </head>
 <body>
   <ul class="gallery"></ul>
 
   <script src="https://cdn.jsdelivr.net/npm/basiclightbox/dist/basicLightbox.min.js"></script>
-  <script src="./js/01-gallery.js"></script>
+  <script src="./js/01-gallery.js" type="module"></script>
 </body>
 </html>
