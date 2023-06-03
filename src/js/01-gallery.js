@@ -49,7 +49,7 @@ const galleryItems = [
   
   const gallery = document.querySelector('.gallery');
   
-  // Crear y renderizar los elementos de la galería
+  // Crear y renderizar los elementos de la galería 
   const createGalleryItem = galleryItems.map(
     ({ smallImage, largeImage, description }) =>
       `<div class="gallery__item">

@@ -32,6 +32,7 @@
   object-fit: cover;
   transition: transform var(--animation-duration) var(--timing-function);
   cursor: pointer;
+  
 }
 
 .gallery__link {
