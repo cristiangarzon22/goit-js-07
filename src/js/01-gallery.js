@@ -1,11 +1,12 @@
 const galleryContainer = document.querySelector('.gallery');
 const galleryItems = [
-    {
-      smallImage: 'https://pixabay.com/get/gc9f7c392d03cbc03b270002993d06aa2b44e875e0d7e0807d88ab010661d513fe21d175e48636b8e802ddb040c20e89c_640.jpg',
-      largeImage: 'https://pixabay.com/get/g6ddecc86cad325f8860e7c1481a5eda77cbe7cf586100d01065806a92e073a3e8eede3849dc979dfb69df88cfcc3fa30f9eb3ce27622a1e861f9379bd16c3b8a_1280.jpg',
-      description: 'Image 1',
-    },
-    {
+  
+  {
+    smallImage: 'https://pixabay.com/get/gc9f7c392d03cbc03b270002993d06aa2b44e875e0d7e0807d88ab010661d513fe21d175e48636b8e802ddb040c20e89c_640.jpg',
+    largeImage: 'https://pixabay.com/get/g6ddecc86cad325f8860e7c1481a5eda77cbe7cf586100d01065806a92e073a3e8eede3849dc979dfb69df88cfcc3fa30f9eb3ce27622a1e861f9379bd16c3b8a_1280.jpg',
+    description: 'Image 1',
+  },
+  {
       smallImage: 'https://pixabay.com/get/g798c92ffe925a93c5e03b0fffa59aafc2a49c6b6c0189684087d20a0ea605378a83eecbd15b5f454ab46e15520c4e02d_640.jpg',
       largeImage: 'https://pixabay.com/get/g5b566270529df122e80f040dda1b76d975ea291cc7d811322117ad5e956eabc3c14a915b2d98532ec57695e7d8d26bca2c00e546fce9341f90044408c9d5eb07_1280.jpg',
       description: 'Image 2'
