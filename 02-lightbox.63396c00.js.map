@@ -1,0 +1,1 @@
+{"mappings":"AAAAA,SAASC,iBAAiB,oBAAoB,WAC1CC,aAAaF,SAASG,cAAc,Y","sources":["src/js/02-lightbox.js"],"sourcesContent":["document.addEventListener(\"DOMContentLoaded\", function() {\n    lightGallery(document.querySelector('.gallery'));\n});\n"],"names":["document","addEventListener","lightGallery","querySelector"],"version":3,"file":"02-lightbox.63396c00.js.map"}
